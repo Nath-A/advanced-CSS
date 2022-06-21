@@ -2,6 +2,25 @@
 From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)
 
 ## Natours project
+[Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
+
+### Passe 1 - CSS
+- [ ] Header
+### Passe 2 - HTML & SASS
+- [ ] Intro Section
+- [ ] About Section
+- [ ] Features Section
+- [ ] Tours Section
+- [ ] Stories Section
+- [ ] Booking Section
+- [ ] Footer
+- [ ] Navigation
+### Passe 3 - Responsive
+- [ ] Responsive
+
+
+## Trillo Project (Flexbox 305)
+## Nexter Project (Grid 305)
 
 ### Notes
 ___
