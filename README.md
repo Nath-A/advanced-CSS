@@ -39,4 +39,7 @@ ___
 - **animation-timing-function** : linear, ease in ease on stuff
 - **backface-visibility** : hidden > hack for unwanted animation shake comming from ... who knows ?🤷🏾‍♀️ . To put on the container of animated stuff 
 - More than one transform > **transform : transform1() transform2();** no comma
-
+- **.class:link** : link is a state of the button selector
+- **all in one animation** : name, animation duration, animation timing function, animation delay;
+- **animation-fill-mode** : backwards > Automaticaly apply the styles up to zero percent before the animation starts.
+- 
