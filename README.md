@@ -5,7 +5,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 [Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
 
 ### Passe 1 - CSS
-- [ ] Header
+- [x] Header
 ### Passe 2 - HTML & SASS
 - [ ] Intro Section
 - [ ] About Section
