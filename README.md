@@ -4,7 +4,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 ## Natours project
 [Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
 **TODO**
-- [ ]Change units from PS to REM and add font-size:10px to html selector
+- [ ] Change units from PS to REM and add font-size:10px to html selector
 
 ### Passe 1 - CSS
 - [x] Header
