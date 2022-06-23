@@ -3,6 +3,8 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 ## Natours project
 [Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
+**TODO**
+- [ ]Change units from PS to REM and add font-size:10px to html selector
 
 ### Passe 1 - CSS
 - [x] Header
@@ -29,9 +31,11 @@ ___
 
 #### **CSS good practices**
 - Begin project with the usual * {} for padding and margin to zero **AND** add box-sizing:border-box;
-- Put font-family into the body and not into the * selector. 
+- Put font-family into the body and not into the * selector.
+- ![CSS Terminology](readme/css-terminology.JPG)
+- Using REM instead of px for lenght units to simplify responsive design 
   
-#### **New stuff learned today**
+#### **New stuff learned right now**
 - **Multiple background** (image + gradient/color) : background-image:*gradient*,*image url* ; 
 - **clip-path**:polygon (Top Left, Top Right, Bottom Right, Bottom Left); same effect than fusion mask on Photoshop each point takes X and Y coordonate
 - Don't use more than 2 properties in keyframes animation (opacity and transform)
@@ -42,4 +46,7 @@ ___
 - **.class:link** : link is a state of the button selector
 - **all in one animation** : name, animation duration, animation timing function, animation delay;
 - **animation-fill-mode** : backwards > Automaticaly apply the styles up to zero percent before the animation starts.
-- 
+- ![Units conversion](readme/units-conversion.JPG)
+
+  
+  
