@@ -3,11 +3,12 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 ## Natours project
 [Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
-**TODO**
-- [ ] Change units from PS to REM and add font-size:10px to html selector
+<!-- **TODO**
+- [ ] Change units from PS to REM and add  -->
 
 ### Passe 1 - CSS
 - [x] Header
+- [x] Header optimization
 ### Passe 2 - HTML & SASS
 - [ ] Intro Section
 - [ ] About Section
@@ -30,10 +31,11 @@ ___
 - **CTRL +D** : Select terms to modify all at the same time
 
 #### **CSS good practices**
-- Begin project with the usual * {} for padding and margin to zero **AND** add box-sizing:border-box;
+- Begin project with the usual *, *::before, *::after {} for padding and margin to zero **AND** add box-sizing:inherit; + body {box-sizing:border-box;} 
 - Put font-family into the body and not into the * selector.
 - ![CSS Terminology](readme/css-terminology.JPG)
-- Using REM instead of px for lenght units to simplify responsive design 
+- **Using REM instead of px for lenght units** to simplify responsive design > put **html {font-size:~~10px~~ 62.5%;}** ( % to not overwrite the browser parameters written by the user) to html selector
+- When we have a point, don't write the 0 > ~~0.5rem~~ > **.5**rem
   
 #### **New stuff learned right now**
 - **Multiple background** (image + gradient/color) : background-image:*gradient*,*image url* ; 
