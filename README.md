@@ -7,8 +7,9 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [ ] Change units from PS to REM and add  -->
 
 ### Passe 1 - CSS
-- [x] Header
-- [x] Header optimization
+- [x] Header HTML + CSS
+- [x] Header CSS better practices
+- [ ] 
 ### Passe 2 - HTML & SASS
 - [ ] Intro Section
 - [ ] About Section
@@ -33,7 +34,8 @@ ___
 #### **CSS good practices**
 - Begin project with the usual *, *::before, *::after {} for padding and margin to zero **AND** add box-sizing:inherit; + body {box-sizing:border-box;} 
 - Put font-family into the body and not into the * selector.
-- ![CSS Terminology](readme/css-terminology.JPG)
+- **CSS Termonology**
+  ![CSS Terminology](readme/css-terminology.JPG)
 - **Using REM instead of px for lenght units** to simplify responsive design > put **html {font-size:~~10px~~ 62.5%;}** ( % to not overwrite the browser parameters written by the user) to html selector
 - When we have a point, don't write the 0 > ~~0.5rem~~ > **.5**rem
   
@@ -48,7 +50,15 @@ ___
 - **.class:link** : link is a state of the button selector
 - **all in one animation** : name, animation duration, animation timing function, animation delay;
 - **animation-fill-mode** : backwards > Automaticaly apply the styles up to zero percent before the animation starts.
-- ![Units conversion](readme/units-conversion.JPG)
-
-  
+- **Units conversions**
+![Units conversion](readme/units-conversion.JPG)
+- **Box model** : Fill area = content + padding + border (area that gets filled with background color or background image)
+- **Box-sizing:border-box**
+![Box sizing : border-box](readme/box-sizing_border-box.JPG)
+  Dimensions will be for the entire fill area, not just for the content area
+- **Component-driven design**
+  ![Component-driven design](/readme/Component-driven-design.JPG)
+- **BEM**
+  ![Block Element Modifier](/readme/BEM.JPG)
+    
   
