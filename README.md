@@ -60,5 +60,13 @@ ___
   ![Component-driven design](/readme/Component-driven-design.JPG)
 - **BEM**
   ![Block Element Modifier](/readme/BEM.JPG)
-    
+- **Architecture folders : 7-1 pattern**
+  ![7-1 pattern](/readme/7-1-pattern.JPG)
+  - base : basic product definitions [???]
+  - components : one file for each component
+  - layout folder : to define the overall layout of the project
+  - pages : style for specific pages of the project
+  - themes : if we use different visual themes
+  - abstracts : no css, but variables or mixins
+  - vendors : where all third part CSS goes
   
