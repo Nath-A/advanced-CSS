@@ -9,7 +9,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 ### Passe 1 - CSS
 - [x] Header HTML + CSS
 - [x] Header CSS better practices
-- [ ] 
+- [X] Header implement BEM
 ### Passe 2 - HTML & SASS
 - [ ] Intro Section
 - [ ] About Section
