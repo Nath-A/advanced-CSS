@@ -11,7 +11,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Header CSS better practices
 - [X] Header implement BEM
 ### Passe 2 - HTML & SASS
-- [ ] Intro Section
+- [x] Intro Section
 - [ ] About Section
 - [ ] Features Section
 - [ ] Tours Section
@@ -79,3 +79,6 @@ ___
 - **Placeholder and extend** : for elements who looks almost exactly alike 
   ![Placeholder & extends](/readme/placeholder-extend.JPG)
 - **Command line ls** are not working on windows. Instead use "dir"
+
+- **Command to convert** : sass sass/input.scss css/output.css
+- **Command to watch** : sass --watch input.scss output.css
