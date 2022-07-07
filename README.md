@@ -12,8 +12,8 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [X] Header implement BEM
 ### Passe 2 - HTML & SASS
 - [x] Intro Section
-- [ ] About Section
-- [ ] Features Section
+- [x] About Section
+- [ ] Features Section (wip - 15'20)
 - [ ] Tours Section
 - [ ] Stories Section
 - [ ] Booking Section
@@ -63,11 +63,12 @@ ___
 - **Architecture folders : 7-1 pattern**
   ![7-1 pattern](/readme/7-1-pattern.JPG)
   - base : basic product definitions [???]
+    - utilities : classes with a unique and simple goal
   - components : one file for each component
-  - layout folder : to define the overall layout of the project
+  - layout : to define the overall layout of the project
   - pages : style for specific pages of the project
   - themes : if we use different visual themes
-  - abstracts : no css, but variables or mixins
+  - abstracts : no css, but variables, functions and mixins
   - vendors : where all third part CSS goes
 - **Comments in SASS** //comment
 - **Nesting**
@@ -82,3 +83,12 @@ ___
 
 - **Command to convert** : sass sass/input.scss css/output.css
 - **Command to watch** : sass --watch input.scss output.css
+- **Using Calc with variables** : Put the variable beetwin brackets with the # before > width:calc((100% - **#{** $gutter-horizontal **}**) / 2);
+- **Select all of the elements in which the class attribute START with "col-"** > [class^="col-"]{}
+- **Select all of the elements in which the class attribute END with "col-"** > [class$="col-"]{}
+- **Select all of the elements in which the class attribute CONTAIN "col-"** > [class*="col-"]{} 
+- **To add a gradient to a text** : 
+  - background: linear-gradient(#eee, #333);
+  - webkit-background-clip: text;
+  - webkit-text-fill-color: transparent;
+- 
