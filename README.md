@@ -91,4 +91,8 @@ ___
   - background: linear-gradient(#eee, #333);
   - webkit-background-clip: text;
   - webkit-text-fill-color: transparent;
+- **background-blend-mode** : to blend 2 images like with "mode" from Photoshop
+- **box-decoration-break:clone;** : /! dont forget the -webkit- ! specifies how an element's fragments should be rendered when broken across multiple lines, columns, or pages.
+  - **clone**  apply all the declarations that we have in the selector to all of the box created by an element. > One element, two boxes, both styled
+  ![Box decoration break : clone](/readme/box-decoration-break-clone.JPG)
 - 

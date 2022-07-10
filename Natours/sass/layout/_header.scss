@@ -3,16 +3,13 @@
     position: relative;
     height: 95vh;
     background-image: linear-gradient(to right bottom,
-            rgba($color-primary-light,.8),
-            rgba($color-primary-dark,.8)),
-            url(../img/hero.jpg);
+            rgba($color-primary-light, .8),
+            rgba($color-primary-dark, .8)),
+        url(../img/hero.jpg);
     background-position: top center;
     background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    /* Added by myself */
-    display: grid;
-    justify-items: center;
-    align-items: center;
 
     &__logo-box
     {
@@ -32,6 +29,6 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
-        text-align:center;
+        text-align: center;
     }
 }
