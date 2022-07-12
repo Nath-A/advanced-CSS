@@ -14,9 +14,8 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Intro Section
 - [x] About Section
 - [x] Features Section
-- [ ] Tours Section (wip)
-![wip tours by myself](/readme/ToDo.JPG)
-- [ ] Stories Section
+- [x] Tours Section
+- [ ] Stories Section (WIP)
 - [ ] Booking Section
 - [ ] Footer
 - [ ] Navigation
