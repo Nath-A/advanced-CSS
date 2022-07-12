@@ -1,11 +1,9 @@
 .card
 {
-    perspective: 150rem;
-    -moz-perspective: 150rem;
+    perspective: 100rem;
+    -moz-perspective: 100rem;
     position: relative;
     height: 52rem;
-
-
 
     &__side
     {
@@ -19,6 +17,7 @@
         border-radius: 3px;
         overflow: hidden;
         box-shadow: $box-shadow-component-015;
+        backface-visibility: hidden;
 
         &--front
         {
