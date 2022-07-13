@@ -95,4 +95,6 @@ ___
 - **box-decoration-break:clone;** : /! dont forget the -webkit- ! specifies how an element's fragments should be rendered when broken across multiple lines, columns, or pages.
   - **clone**  apply all the declarations that we have in the selector to all of the box created by an element. > One element, two boxes, both styled
   ![Box decoration break : clone](/readme/box-decoration-break-clone.JPG)
+- **Shape-outside: circle(50% at 50% 50%);0** : create a circle for text "habillage". Need to specify width, height, and be floating.
+- **objct-fit : cover;** : like background-size. /! fill will fucked up the aspect ration
 - 
