@@ -97,4 +97,7 @@ ___
   ![Box decoration break : clone](/readme/box-decoration-break-clone.JPG)
 - **Shape-outside: circle(50% at 50% 50%);0** : create a circle for text "habillage". Need to specify width, height, and be floating.
 - **objct-fit : cover;** : like background-size. /! fill will fucked up the aspect ration
-- 
+- **adjacent siblings selector** : 
+  - direct AFTER"+"
+  - AFTER but not directly "~"
+- **!important use** : only in the utilities classes
