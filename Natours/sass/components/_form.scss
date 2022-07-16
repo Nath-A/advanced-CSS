@@ -92,15 +92,11 @@
 
         &::after
         {
-
+            @include center-horizontal-vertical;
             content: "";
             display: block;
             height: 1.3rem;
             width: 1.3rem;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             background-color: $color-primary;
             opacity: 0;
             transition: opacity .2s;
