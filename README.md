@@ -101,3 +101,4 @@ ___
   - direct AFTER"+"
   - AFTER but not directly "~"
 - **!important use** : only in the utilities classes
+- **cubic-bezier** : [https://easings.net/](https://easings.net/) & [https://cubic-bezier.com/](https://cubic-bezier.com/)
