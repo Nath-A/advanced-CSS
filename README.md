@@ -15,10 +15,11 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] About Section
 - [x] Features Section
 - [x] Tours Section
-- [ ] Stories Section (WIP)
-- [ ] Booking Section
-- [ ] Footer
-- [ ] Navigation
+- [x] Stories Section
+- [x] Booking Section
+- [x] Footer
+- [x] Navigation
+- [ ] Popup (wip)
 ### Passe 3 - Responsive
 - [ ] Responsive
 
