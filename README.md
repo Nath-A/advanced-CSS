@@ -19,7 +19,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Booking Section
 - [x] Footer
 - [x] Navigation
-- [ ] Popup (wip)
+- [x] Popup
 ### Passe 3 - Responsive
 - [ ] Responsive
 
