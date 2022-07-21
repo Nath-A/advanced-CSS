@@ -21,7 +21,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Navigation
 - [x] Popup
 ### Passe 3 - Responsive
-- [ ] Responsive
+- [ ] Responsive - WIP
 
 
 ## Trillo Project (Flexbox 305)
@@ -64,7 +64,7 @@ ___
 - **Architecture folders : 7-1 pattern**
   ![7-1 pattern](/readme/7-1-pattern.JPG)
   - base : basic product definitions [???]
-    - utilities : classes with a unique and simple goal
+  - utilities : classes with a unique and simple goal
   - components : one file for each component
   - layout : to define the overall layout of the project
   - pages : style for specific pages of the project
@@ -97,9 +97,11 @@ ___
   - **clone**  apply all the declarations that we have in the selector to all of the box created by an element. > One element, two boxes, both styled
   ![Box decoration break : clone](/readme/box-decoration-break-clone.JPG)
 - **Shape-outside: circle(50% at 50% 50%);0** : create a circle for text "habillage". Need to specify width, height, and be floating.
-- **objct-fit : cover;** : like background-size. /! fill will fucked up the aspect ration
+- **objct-fit : cover;** : like background-size. /! fill will fucked up the aspect ratio
 - **adjacent siblings selector** : 
   - direct AFTER"+"
   - AFTER but not directly "~"
-- **!important use** : only in the utilities classes
+- **the "!important" usage** : only in the utilities classes
 - **cubic-bezier** : [https://easings.net/](https://easings.net/) & [https://cubic-bezier.com/](https://cubic-bezier.com/)
+- **background-size:100%; = contain, not cover !**
+- [Sizzy](https://sizzy.co) > **To see our online website on different devices**

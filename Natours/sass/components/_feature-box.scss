@@ -8,6 +8,11 @@
     box-shadow: $box-shadow-component-015;
     transition: transform .3s;
 
+    @include responsive(tablet)
+    {
+        padding: 2rem;
+    }
+
     &__icon
     {
         font-size: 6rem;
@@ -17,10 +22,20 @@
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+
+        @include responsive(tablet)
+        {
+            margin-bottom: 0;
+        }
     }
 
     &:hover
     {
         transform: translateY(-1.5rem) scale(1.03);
+
+        @include responsive(tablet)
+        {
+            transform: none;
+        }
     }
 }
