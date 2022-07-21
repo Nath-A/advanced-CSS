@@ -4,10 +4,20 @@
     padding: 10rem 0;
     font-size: 1.4rem;
 
+    @include responsive(tablet)
+    {
+        padding: 8rem 0;
+    }
+
     &__logo-box
     {
         text-align: center;
         margin-bottom: 8rem;
+
+        @include responsive(tablet)
+        {
+            margin-bottom: 4rem;
+        }
     }
 
     &__logo
@@ -22,6 +32,14 @@
         border-top: 1px solid $color-grey-dark-1;
         padding-top: 2rem;
         display: inline-block;
+
+        @include responsive(tablet)
+        {
+            width: 100%;
+            text-align: center;
+            float: unset;
+
+        }
     }
 
     &__list
@@ -70,5 +88,12 @@
         padding-top: 2rem;
         width: 80%;
         float: right;
+
+        @include responsive(tablet)
+        {
+            width: 100%;
+            text-align: center;
+            float: unset;
+        }
     }
 }

@@ -11,6 +11,18 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 
+
+    @include responsive(tablet)
+    {
+        height: 100vh;
+    }
+
+    @include responsive(phone)
+    {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+    }
+
     &__logo-box
     {
         position: absolute;
