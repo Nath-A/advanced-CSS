@@ -21,7 +21,10 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Navigation
 - [x] Popup
 ### Passe 3 - Responsive
-- [ ] Responsive - WIP
+- [x] Responsive with media queries
+- [ ] Responsive images HTML > need Photoshop - WIP
+- [ ] Responsive images CSS > WIP
+- [ ] Test if everything is working on old browsers
 
 
 ## Trillo Project (Flexbox 305)
@@ -40,7 +43,7 @@ ___
 - **Using REM instead of px for lenght units** to simplify responsive design > put **html {font-size:~~10px~~ 62.5%;}** ( % to not overwrite the browser parameters written by the user) to html selector
 - When we have a point, don't write the 0 > ~~0.5rem~~ > **.5**rem
   
-#### **New stuff learned right now**
+#### **New stuff learned right now (WHAT A MESS !)**
 - **Multiple background** (image + gradient/color) : background-image:*gradient*,*image url* ; 
 - **clip-path**:polygon (Top Left, Top Right, Bottom Right, Bottom Left); same effect than fusion mask on Photoshop each point takes X and Y coordonate
 - Don't use more than 2 properties in keyframes animation (opacity and transform)
@@ -105,3 +108,12 @@ ___
 - **cubic-bezier** : [https://easings.net/](https://easings.net/) & [https://cubic-bezier.com/](https://cubic-bezier.com/)
 - **background-size:100%; = contain, not cover !**
 - [Sizzy](https://sizzy.co) > **To see our online website on different devices**
+- **Density switching** : different images for different screen type : 
+- *img srcset="src 1x, src 2x"* : allows the browser to choose the best of these images according to the screen used to display the webpage. 1x = low resolution screen | 2x = high resolution screen
+- **Art direction** : different images for different viewport width
+- *<picture></picture>* : allows to specify multiple sources for one image. Into the <source> element, we can write a media query. Apply like an "if". If the screen don't fit the media query, it uses what is specified into the <img>
+- ![picture and source](/readme/picture-source.JPG)
+- **Resolution switching method** : 
+- ![Resolution switching method](/readme/resolution-switching-method.JPG)
+- **backdrop-filter** : apply a filter to content behind the element
+- **@supports(property){}** : specify special design if the browser supports this property.

@@ -14,11 +14,12 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: $border-radius-extra-small;
         overflow: hidden;
         box-shadow: $box-shadow-component-015;
-        backface-visibility: hidden;
+
 
         &--front
         {
