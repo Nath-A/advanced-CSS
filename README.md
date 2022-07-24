@@ -65,19 +65,27 @@ ___
   </ul>
 </details>
 
+<details>
+  <summary>CSS animation</summary>
+  <ul>
+    <li>Don't use more than 2 properties in keyframes animation (opacity and transform)</li>
+    <li><b>animation-iteration-count</b> : x; > repeat X time the animation</li>
+    <li><b>all in one animation</b> : name, animation duration, animation timing function, animation delay;</li>
+    <li></li>
+  </ul>
+</details>
 
 
   
 #### **New stuff learned right now (WHAT A MESS TO REFACTOR!)**
 - **Multiple background** (image + gradient/color) : background-image:*gradient*,*image url* ; 
 - **clip-path**:polygon (Top Left, Top Right, Bottom Right, Bottom Left); same effect than fusion mask on Photoshop each point takes X and Y coordonate
-- Don't use more than 2 properties in keyframes animation (opacity and transform)
-- **animation-iteration-count** : x; > repeat X time the animation
+
 - **animation-timing-function** : linear, ease in ease on stuff
 - **backface-visibility** : hidden > hack for unwanted animation shake comming from ... who knows ?🤷🏾‍♀️ . To put on the container of animated stuff 
 - More than one transform > **transform : transform1() transform2();** no comma
 - **.class:link** : link is a state of the button selector. Best practice to use **a:link** also
-- **all in one animation** : name, animation duration, animation timing function, animation delay;
+- 
 - **animation-fill-mode** : backwards > Automaticaly apply the styles up to zero percent before the animation starts.
 - **Units conversions**
 ![Units conversion](readme/units-conversion.JPG)
