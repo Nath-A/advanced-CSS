@@ -1,7 +1,7 @@
 # Advanced CSS
 From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)
 
-## Natours project
+## Natours project (SASS 101)
 [Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
 <!-- **TODO**
 - [ ] Change units from PS to REM and add  -->
@@ -28,22 +28,47 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 
 ## Trillo Project (Flexbox 305)
+- [x] Overall layout
+- [ ] Header
+- [ ] Navigation
+- [ ] Hotel Overview
+- [ ] Description section
+- [ ] User reviews section
+- [ ] CTA Section
+- [ ] Media Queries
+- [ ] 
 ## Nexter Project (Grid 305)
 
 ### Notes
 ___
-#### **Visual Studio Code**
-- **CTRL +D** : Select terms to modify all at the same time
 
-#### **CSS good practices**
-- Begin project with the usual *, *::before, *::after {} for padding and margin to zero **AND** add box-sizing:inherit; + body {box-sizing:border-box;} 
-- Put font-family into the body and not into the * selector.
-- **CSS Termonology**
-  ![CSS Terminology](readme/css-terminology.JPG)
-- **Using REM instead of px for lenght units** to simplify responsive design > put **html {font-size:~~10px~~ 62.5%;}** ( % to not overwrite the browser parameters written by the user) to html selector
-- When we have a point, don't write the 0 > ~~0.5rem~~ > **.5**rem
+<details>
+  <summary>Visual Studio Code</summary>
+  <b>CTRL +D</b> : Select terms to modify all at the same time
+</details>
+
+<details>
+  <summary>CSS good practices</summary>
+  <ul>
+  <li> Begin project with the usual *, *::before, *::after {} for padding and margin to zero **AND** add box-sizing:inherit; + body {box-sizing:border-box;}</li> 
+  <li>Put font-family into the body and not into the * selector.</li>
+  <li><b>Using REM instead of px for lenght units</b> to simplify responsive design > put <b>html {font-size:~~10px~~ 62.5%;}</b> ( % to not overwrite the browser parameters written by the user) to html selector</li>
+  <li>When we have adecimal number, don't write the 0 > ~~0.5rem~~ > <b>.5</b>rem</li>
+  <li></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS vocabulary</summary>
+  <ul>
+    <li>CSS Terminology : <img src="readme/css-terminology.jpg" alt="CSS Terminology"></li>
+  </ul>
+</details>
+
+
+
   
-#### **New stuff learned right now (WHAT A MESS !)**
+#### **New stuff learned right now (WHAT A MESS TO REFACTOR!)**
 - **Multiple background** (image + gradient/color) : background-image:*gradient*,*image url* ; 
 - **clip-path**:polygon (Top Left, Top Right, Bottom Right, Bottom Left); same effect than fusion mask on Photoshop each point takes X and Y coordonate
 - Don't use more than 2 properties in keyframes animation (opacity and transform)
@@ -117,3 +142,6 @@ ___
 - ![Resolution switching method](/readme/resolution-switching-method.JPG)
 - **backdrop-filter** : apply a filter to content behind the element
 - **@supports(property){}** : specify special design if the browser supports this property.
+- To download SVG & sprite : [https://icomoon.io/](https://icomoon.io/)
+- **flex:0 0 18%;** : flex grow (no grow if enough place), flex shrink (no shrink if not enough), flex basis (site to occupy)
+- **To color a SVG file in css** > fill : color;
