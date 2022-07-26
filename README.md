@@ -153,4 +153,7 @@ ___
 - To download SVG & sprite : [https://icomoon.io/](https://icomoon.io/)
 - **flex:0 0 18%;** : flex grow (no grow if enough place), flex shrink (no shrink if not enough), flex basis (site to occupy)
 - **To color a SVG file in css** > fill : color;
-- color:<b>current color</b>; : to use same color as parent element 
+- color:<b>current color</b>; : to use same color as parent element
+- <b>flex:1;</b> : occupy all space available 
+- on flex childs : margin-right:auto; > for automatically calculated margin between elements
+- <img src="readme/flex-margin-auto.jpeg" alt="Flex margin auto">
