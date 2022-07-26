@@ -48,6 +48,17 @@ body {
   display: block;
 }
 
+.overview {
+  display: flex;
+}
+.overview__stars {
+  margin-right: auto;
+}
+.overview__icon-star, .overview__icon-location {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-primary);
+}
 .header {
   height: 7rem;
   background-color: #fff;
@@ -153,17 +164,6 @@ body {
   margin-right: 1rem;
 }
 
-.overview {
-  display: flex;
-}
-.overview__stars {
-  margin-right: auto;
-}
-.overview__icon-star, .overview__icon-location {
-  width: 2rem;
-  height: 2rem;
-  fill: var(--color-primary);
-}
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
