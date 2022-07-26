@@ -153,3 +153,4 @@ ___
 - To download SVG & sprite : [https://icomoon.io/](https://icomoon.io/)
 - **flex:0 0 18%;** : flex grow (no grow if enough place), flex shrink (no shrink if not enough), flex basis (site to occupy)
 - **To color a SVG file in css** > fill : color;
+- color:<b>current color</b>; : to use same color as parent element 
