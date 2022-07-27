@@ -71,9 +71,39 @@
         height: 2rem;
         fill: currentColor;
         margin-right: 2rem;
+
+        &--social-network
+        {
+            margin-right: 0;
+            width: 2rem;
+            height: 2rem;
+            fill: currentColor;
+            cursor: pointer;
+            transition: var(--transitionAll-2s);
+
+            &:hover
+            {
+                color: var(--color-primary);
+                transform: translateY(-2px);
+            }
+
+            &:active
+            {
+                transform: translateY(1px);
+
+            }
+        }
     }
 
 
+}
+
+.social-network
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
 }
 
 .legal
