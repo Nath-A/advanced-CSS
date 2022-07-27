@@ -35,7 +35,8 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Description section
 - [x] User reviews section
 - [x] CTA Section
-- [ ] Media Queries 
+- [x] Media Queries 
+- [ ] ![Trillo-challenges](readme/trillo-polish.JPG)
 ## Nexter Project (Grid 305)
 
 ### Notes
