@@ -5,13 +5,23 @@
     background-color: var(--color-grey-light-2);
     box-shadow: var(--shadow-dark);
 
-    //for testing purposes
-    min-height: 50rem;
+    @media only screen and (max-width:$bp-1200)
+    {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 .content
 {
     display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width:$bp-900)
+    {
+        flex-direction: column;
+    }
 }
 
 .hotel-view

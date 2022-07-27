@@ -9,6 +9,7 @@
     &__friends
     {
         margin-left: auto;
+        display: flex;
     }
 
     &__photo
@@ -21,7 +22,7 @@
 
         &:not(:last-child)
         {
-            margin-right: -1.15rem;
+            margin-right: -2rem;
         }
     }
 }

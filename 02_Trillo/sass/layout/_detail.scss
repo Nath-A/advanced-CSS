@@ -5,7 +5,17 @@
     padding: 4.5rem;
     border-bottom: var(--line);
     font-size: 1.4rem;
-    flex-wrap: wrap;
+
+    @media only screen and (max-width:$bp-900)
+    {
+        padding: 3rem;
+    }
+
+    @media only screen and (max-width:$bp-600)
+    {
+        flex-direction: column;
+    }
+
 
 
     .description
@@ -15,6 +25,19 @@
         background-color: #fff;
         box-shadow: var(--shadow-light);
         padding: 3rem;
+
+        @media only screen and (max-width:$bp-900)
+        {
+            padding: 2rem;
+            margin-right: 3rem;
+
+        }
+
+        @media only screen and (max-width:$bp-600)
+        {
+            margin-right: 0;
+            margin-bottom: 3rem;
+        }
 
 
         .paragraph:not(:last-of-type)
