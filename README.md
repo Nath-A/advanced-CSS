@@ -44,7 +44,11 @@ ___
 
 <details>
   <summary>Visual Studio Code</summary>
-  <b>CTRL +D</b> : Select terms to modify all at the same time
+  <ul>
+    <li><b>CTRL + D</b> : Select terms to modify all at the same time</li>
+    <li><b>MAJ + ALT + right arrow</b> : expand selection </li>
+    <li><b>MAJ + ALT + left arrow</b> : shrink selection</li>
+  </ul>
 </details>
 
 <details>
@@ -157,3 +161,4 @@ ___
 - <b>flex:1;</b> : occupy all space available 
 - on flex childs : margin-right:auto; > for automatically calculated margin between elements
 - <img src="readme/flex-margin-auto.jpeg" alt="Flex margin auto">
+- <b>Change the color of an image in CSS :</b> (-webkit-)mask-image : url(same as background-image); & (-webkit-)mask-size :cover

@@ -10,7 +10,10 @@
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
   --gradient-primary: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  --line: 1px solid var(--color-grey-light-2);
+  --transitionAll-2s: all .2s;
 }
 
 @keyframes pulsate {
@@ -63,7 +66,7 @@ body {
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: var(--transitionAll-2s);
 }
 .btn-inline:hover {
   color: var(--color-grey-dark-1);
@@ -81,9 +84,38 @@ body {
   display: block;
 }
 
+.list {
+  margin: 3rem 0;
+  list-style: none;
+  padding: 3rem 0;
+  border-top: var(--line);
+  border-bottom: var(--line);
+  display: flex;
+  flex-wrap: wrap;
+}
+.list__item {
+  flex: 0 0 50%;
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.list__item::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/chevron-thin-right.svg);
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.7rem;
+  background-color: var(--color-primary);
+  -webkit-mask-image: url(../img/chevron-thin-right.svg);
+  mask-image: url(../img/chevron-thin-right.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
 .overview {
   display: flex;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   align-items: center;
 }
 .overview__heading {
@@ -132,10 +164,51 @@ body {
   text-transform: uppercase;
 }
 
+.recommend {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: var(--color-grey-dark-3);
+}
+.recommend__friends {
+  margin-left: auto;
+}
+.recommend__photo {
+  box-sizing: content-box;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  border: 3px solid #fff;
+}
+.recommend__photo:not(:last-child) {
+  margin-right: -1.15rem;
+}
+
+.detail {
+  display: flex;
+  background-color: var(--color-grey-light-1);
+  padding: 4.5rem;
+  border-bottom: var(--line);
+}
+.detail .description {
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+.detail .description .paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+.detail .user-reviews {
+  flex: 1;
+}
+
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,7 +235,7 @@ body {
   padding: 0.7rem 2rem;
   border-radius: 100px;
   width: 90%;
-  transition: all 0.2s;
+  transition: var(--transitionAll-2s);
   margin-right: -3.5rem;
 }
 .search__input:focus {
@@ -314,7 +387,6 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  height: 100rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@
         display: inline-block;
         background-color: transparent;
         cursor: pointer;
-        transition: $transitionAll-2s;
+        transition: var(--transitionAll-2s);
 
         &:hover
         {
