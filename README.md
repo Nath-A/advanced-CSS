@@ -29,14 +29,13 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 ## Trillo Project (Flexbox 305)
 - [x] Overall layout
-- [ ] Header
-- [ ] Navigation
-- [ ] Hotel Overview
-- [ ] Description section
-- [ ] User reviews section
-- [ ] CTA Section
-- [ ] Media Queries
-- [ ] 
+- [x] Header
+- [x] Navigation
+- [x] Hotel Overview
+- [x] Description section
+- [x] User reviews section
+- [x] CTA Section
+- [ ] Media Queries 
 ## Nexter Project (Grid 305)
 
 ### Notes
