@@ -36,8 +36,12 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] User reviews section
 - [x] CTA Section
 - [x] Media Queries 
-- [ ] ![Trillo-challenges](readme/trillo-polish.JPG)
+- [ ] Challenge 
+  ![Trillo-challenges](readme/trillo-polish.JPG)
+
+
 ## Nexter Project (Grid 305)
+
 
 ### Notes
 ___
@@ -79,6 +83,21 @@ ___
   </ul>
 </details>
 
+<details>
+  <summary>CSS GRID</summary>
+  <ul>
+    <li><b>grid-auto-rows : 80px;</b> > for implicit stuff supposed to be display into grid but not explicitely defined with grid-template-rows and grid-template-columns</li>
+    <li><b>grid-auto-flow : row/column dense;</b> > to place stuff not explicitely defined (row is default) dense is for no gap</li>
+    <li>grid-template-columns/rows:<b>max content</b> 1fr</li> : take only space needed by content, nothing more and without line-break
+  </ul>
+</details>
+
+<details>
+  <summary></summary>
+  <ul>
+    <li></li>
+  </ul>
+</details>
 
   
 #### **New stuff learned right now (WHAT A MESS TO REFACTOR!)**
