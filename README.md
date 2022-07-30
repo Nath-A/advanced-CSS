@@ -88,7 +88,13 @@ ___
   <ul>
     <li><b>grid-auto-rows : 80px;</b> > for implicit stuff supposed to be display into grid but not explicitely defined with grid-template-rows and grid-template-columns</li>
     <li><b>grid-auto-flow : row/column dense;</b> > to place stuff not explicitely defined (row is default) dense is for no gap</li>
-    <li>grid-template-columns/rows:<b>max content</b> 1fr</li> : take only space needed by content, nothing more and without line-break
+    <li>grid-template-columns/rows:<b>[...] max-content</b> [...]; > take only space needed by content, nothing more and without line-break </li> 
+    <li>grid-template-columns/rows:<b>[...] min-content</b> [...]; > take only space needed by content, nothing more but with line-break </li> 
+    <li>grid-template-columns/rows:[...] repeat(<b>auto-fill</b>, x px); > automatically creates as many tracks with the desired width we specify as fit into the container</li> 
+    <li>grid-template-columns/rows:[...] repeat(<b>auto-fit</b>, x px); > automatically creates as many tracks with the desired width we specify as fit into the container but coolapse the empty-ones and leave an empty space into the container<br><img src="readme/Grid-auto-fit.JPG" alt="Grid auto-fit"></li> 
+    <li><b>grid-template-columns:repeat(auto-fit, minmax(200px,1fr);</b> > creates columns depending of the minmax function, put to the second row what doesn't fit </li>
+    <li>grid-template-columns/rows:<b>[...] min-max(150px, min content...)</b> [...]; > at least 150px, at most min content</li>
+    <li>A fractional unit fills up the entire remaining space but it is never smaller than the minimum content of a row or a column <br><img src="readme/grid-1fr.JPG" alt="Grid 1 fr"></li>
   </ul>
 </details>
 
