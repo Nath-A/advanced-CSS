@@ -42,7 +42,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 ## Nexter Project (Grid 305)
 - [x] Overall layout
-- [ ] Features section
+- [x] Features section
 - [ ] Story section
 - [ ] Homes section
 - [ ] Gallery
@@ -105,6 +105,7 @@ ___
     <li><b>grid-template-columns:repeat(auto-fit, minmax(200px,1fr);</b> > creates columns depending of the minmax function, put to the second row what doesn't fit </li>
     <li>grid-template-columns/rows:<b>[...] min-max(150px, min content...)</b> [...]; > at least 150px, at most min content</li>
     <li>A fractional unit fills up the entire remaining space but it is never smaller than the minimum content of a row or a column <br><img src="readme/grid-1fr.JPG" alt="Grid 1 fr"></li>
+    <li> grid-row: 1/<b>-1</b>; > the -1 is the last <b>explicit grid line</b></li>
   </ul>
 </details>
 
