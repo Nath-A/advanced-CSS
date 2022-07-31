@@ -14,9 +14,6 @@
     gap: 2rem;
     align-items: center;
 
-    &__item
-    {}
-
     &__link:link,
     &__link:visited
     {
@@ -46,7 +43,6 @@
     font-size: 1.4rem;
     color: $color-grey-light-2;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 6rem auto 0 auto;
     width: 70%;
-    margin: 0 auto;
 }
