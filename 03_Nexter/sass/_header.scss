@@ -1,4 +1,6 @@
 .header
 {
     background-color: $color-grey-dark-1;
+    grid-row: 1;
+    grid-column: full-start/span 5;
 }

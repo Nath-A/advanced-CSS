@@ -41,7 +41,17 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 
 ## Nexter Project (Grid 305)
-
+- [x] Overall layout
+- [ ] Features section
+- [ ] Story section
+- [ ] Homes section
+- [ ] Gallery
+- [ ] Footer
+- [ ] Sidebar
+- [ ] Header
+- [ ] Realtors section
+- [ ] Media Queries
+- [ ] Challenge ? 
 
 ### Notes
 ___

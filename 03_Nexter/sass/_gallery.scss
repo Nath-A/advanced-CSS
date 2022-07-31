@@ -1,7 +1,6 @@
 .gallery
 {
-    .homes
-    {
-        background-color: $color-grey-dark-1;
-    }
+    background-color: $color-grey-dark-1;
+    grid-column: full-start/full-end;
+    grid-row: 5/6;
 }
