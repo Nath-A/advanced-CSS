@@ -44,9 +44,9 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Overall layout
 - [x] Features section
 - [x] Story section
-- [ ] Homes section
-- [ ] Gallery
-- [ ] Footer
+- [x] Homes section
+- [x] Gallery
+- [x] Footer
 - [ ] Sidebar
 - [ ] Header
 - [ ] Realtors section
