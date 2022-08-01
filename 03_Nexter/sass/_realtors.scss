@@ -2,5 +2,34 @@
 {
     background-color: $color-secondary;
     grid-row: 1;
-    grid-column: span 5/full-end;
+    grid-column: span 3 / full-end;
+    padding: 3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 2rem;
+
+    &__list
+    {
+        display: grid;
+        grid-template-columns: min-content max-content;
+        column-gap: 2rem;
+        row-gap: 5vh;
+        align-items: center;
+    }
+
+    &__img
+    {
+        width: 7rem;
+        border-radius: 50%;
+        display: block;
+    }
+
+    &__sold
+    {
+        text-transform: uppercase;
+        color: $color-grey-dark-2;
+        margin-top: -3px;
+    }
 }
