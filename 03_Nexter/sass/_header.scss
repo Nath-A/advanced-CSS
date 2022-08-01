@@ -1,6 +1,6 @@
 .header
 {
-    grid-column: full-start/span 7;
+    grid-column: full-start/col-end 6;
     background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero.jpeg);
     background-size: cover;
     background-position: center;
@@ -8,14 +8,25 @@
 
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: 1fr min-content 6rem 1fr;
+    grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
     row-gap: 1.5rem;
     justify-content: center;
+
+    @media only screen and (max-width:$bp-800)
+    {
+        grid-column: 1 / -1;
+    }
+
+    @media only screen and (max-width:$bp-600)
+    {
+        padding: 5rem;
+    }
 
     &__logo
     {
         height: 3rem;
         justify-self: center;
+
     }
 
     &__seenon-text
@@ -42,12 +53,13 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 3rem;
-        // justify-content: center;
+        align-items: center;
         justify-items: center;
 
         img
         {
-            height: 2.5rem;
+            max-height: 2.5rem;
+            max-width: 100%;
             filter: brightness(.75);
         }
     }

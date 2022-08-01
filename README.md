@@ -50,8 +50,8 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 - [x] Sidebar
 - [x] Header
 - [x] Realtors section
-- [ ] Media Queries
-- [ ] Challenge ? 
+- [x] Media Queries
+
 
 ### Notes
 ___
