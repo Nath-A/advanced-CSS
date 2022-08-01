@@ -2,7 +2,7 @@
 From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)
 
 ## Natours project (SASS 101)
-[Natours - WIP](https://nathalie-anneessens.github.io/advanced-CSS/Natours)
+[Natours](https://nathalie-anneessens.github.io/advanced-CSS/01_Natours)
 <!-- **TODO**
 - [ ] Change units from PS to REM and add  -->
 
@@ -28,6 +28,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 
 ## Trillo Project (Flexbox 305)
+[Trillo](https://nathalie-anneessens.github.io/advanced-CSS/02_Trillo)
 - [x] Overall layout
 - [x] Header
 - [x] Navigation
@@ -41,6 +42,7 @@ From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https:/
 
 
 ## Nexter Project (Grid 305)
+[Nexter](https://nathalie-anneessens.github.io/advanced-CSS/03_Nexter)
 - [x] Overall layout
 - [x] Features section
 - [x] Story section
