@@ -1,10 +1,9 @@
 # Advanced CSS
-From [Udemy - Advanced CSS and Sass Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)
+Design and tutorials by [Jonas Schmedtmann)](https://codingheroes.io/)
 
+**[Natours, Trillo & Nexter](https://nathalie-anneessens.github.io/advanced-CSS)**
 ## Natours project (SASS 101)
 [Natours](https://nathalie-anneessens.github.io/advanced-CSS/01_Natours)
-<!-- **TODO**
-- [ ] Change units from PS to REM and add  -->
 
 ### Passe 1 - CSS
 - [x] Header HTML + CSS
