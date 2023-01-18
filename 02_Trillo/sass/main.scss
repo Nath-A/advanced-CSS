@@ -1,21 +1,13 @@
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@use "components/button";
+@use "components/cta";
+@use "components/gallery";
+@use "components/list";
+@use "components/overview";
+@use "components/recommend";
+@use "components/review";
 
-@import "base/animations";
-@import "base/base";
-@import "base/typography";
-@import "base/utilities";
+@use "layout/detail";
+@use "layout/header";
+@use "layout/sidebar";
 
-@import "components/button";
-@import "components/cta";
-@import "components/gallery";
-@import "components/list";
-@import "components/overview";
-@import "components/recommend";
-@import "components/review";
-
-@import "layout/detail";
-@import "layout/header";
-@import "layout/sidebar";
-
-@import "pages/home";
+@use "pages/home";

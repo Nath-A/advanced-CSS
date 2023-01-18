@@ -1,9 +1,11 @@
+@use "../abstracts";
+
 .cta
 {
     padding: 3.5rem 0;
     text-align: center;
 
-    @media only screen and (max-width:$bp-900)
+    @media only screen and (max-width:abstracts.$bp-900)
     {
         padding: 2.5rem 0;
 

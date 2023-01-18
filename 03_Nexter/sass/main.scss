@@ -1,13 +1,13 @@
-@import "base";
-@import "typography";
-@import "utilities";
+@use "base";
+@use "typography";
+@use "utilities";
 
 
-@import "sidebar";
-@import "header";
-@import "realtors";
-@import "features";
-@import "story";
-@import "homes";
-@import "gallery";
-@import "footer";
+@use "sidebar";
+@use "header";
+@use "realtors";
+@use "features";
+@use "story";
+@use "homes";
+@use "gallery";
+@use "footer";
