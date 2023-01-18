@@ -1,3 +1,18 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.15;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*
 0 - 600px:      Phone
 600 - 900px:    Tablet portrait
@@ -15,6 +30,42 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 1em = 16px
 */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
 *,
 *::before,
 *::after {
@@ -62,42 +113,6 @@ body {
   color: #fff;
 }
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-  80% {
-    transform: translateX(1rem);
-  }
-  100% {
-    opacity: 100%;
-    transform: translate(0);
-  }
-}
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-  80% {
-    transform: translateX(-1rem);
-  }
-  100% {
-    opacity: 100%;
-    transform: translate(0);
-  }
-}
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(10rem);
-  }
-  100% {
-    opacity: 100%;
-    transform: translateY(0);
-  }
-}
 body {
   font-family: "Lato", sans-serif;
   /* font-size: 16px; */
@@ -217,21 +232,6 @@ body {
 
 .u-margin-top-extra-large {
   margin-top: 10rem !important;
-}
-
-.bg-video {
-  position: absolute;
-  top: 0;
-  height: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.15;
-}
-.bg-video__content {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
 }
 
 .btn, .btn:link, .btn:visited {
