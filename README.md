@@ -1,9 +1,9 @@
 # Advanced CSS
 Design and tutorials by [Jonas Schmedtmann)](https://codingheroes.io/)
 
-**[Natours, Trillo & Nexter](https://nathalie-anneessens.github.io/advanced-CSS)**
+**[Natours, Trillo & Nexter](https://nath-a.github.io/advanced-CSS)**
 ## Natours project (SASS 101)
-[Natours](https://nathalie-anneessens.github.io/advanced-CSS/01_Natours)
+[Natours](https://nath-a.github.io/advanced-CSS/01_Natours)
 
 ### Passe 1 - CSS
 - [x] Header HTML + CSS
@@ -27,7 +27,7 @@ Design and tutorials by [Jonas Schmedtmann)](https://codingheroes.io/)
 
 
 ## Trillo Project (Flexbox 305)
-[Trillo](https://nathalie-anneessens.github.io/advanced-CSS/02_Trillo)
+[Trillo](https://nath-a.github.io/advanced-CSS/02_Trillo)
 - [x] Overall layout
 - [x] Header
 - [x] Navigation
@@ -41,7 +41,7 @@ Design and tutorials by [Jonas Schmedtmann)](https://codingheroes.io/)
 
 
 ## Nexter Project (Grid 305)
-[Nexter](https://nathalie-anneessens.github.io/advanced-CSS/03_Nexter)
+[Nexter](https://nath-a.github.io/advanced-CSS/03_Nexter)
 - [x] Overall layout
 - [x] Features section
 - [x] Story section
